@@ -31,3 +31,7 @@ Esimerkkejä:<br>
 {% include common/clause_start.html type="req" id="sp-yk/vaat-tuulivoimalan-suureet" %}
 [Maankäyttö- ja rakennuslain 77 a §](https://www.finlex.fi/fi/laki/ajantasa/1999/19990132#L10aP77a) mukaisissa yleiskaavoissa käytettäessä kaavamääräyslajikoodeja [Tuulivoimaloiden määrä](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tuulivoimaloidenMaara) ja/tai [Tuulivoimalan enimmäiskorkeus](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tuulivoimalanEnimmaiskorkeus) tulee liittyä sellaiseen Kaavakohteeseen, johon liittyy myös kaavamääräyslaji [Tuulivoimala-alue](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tuulivoimala-alue).
 {% include common/clause_end.html %}
+
+{% include common/clause_start.html type="req" id="sp-yk/vaat-44-72-lisatieto" %}
+[Maankäyttö- ja rakennuslain 44 §](https://www.finlex.fi/fi/laki/ajantasa/1999/19990132#L5P44) ja [72 §](https://www.finlex.fi/fi/laki/ajantasa/1999/19990132#L10P72) mukaisissa yleiskaavoissa tulee [Rakennuspaikkaan](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/rakennuspaikka) liittyä kaavamääräyksen lisätiedonlaji-koodiston koodi [Rakennusluvan peruste](http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarayksen_Lisatieto/code/rakennusluvanPeruste) ja tämän arvona [Yleiskaavan oikeusvaikutukset](https://koodistot.suomi.fi/codescheme;registryCode=rytj;schemeCode=oikeusvaik_YK) -koodiston arvo, joka vastaa rakennusluvan perusteena toimivaa pykälää, mikäli kohde määräyksineen toimii rakennusluvan perusteena.
+{% include common/clause_end.html %}
