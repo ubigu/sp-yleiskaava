@@ -38,7 +38,7 @@ Muissa yleiskaavoissa (ns. aluevarausyleiskaavat) sallittu kerrosala osoitetaan 
 ## Tehokkuusluku
 **Koodi**: <http://uri.suomi.fi/codelist/rytj/RY_Kaavamaarays/code/tehokkuusluku>
 
-Tehokkuusluku-koodin avulla voidaan ilmaista aluetehokkuus, korttelitehokkuus ja tonttitehokkuus, riippuen siitä, mille kaavakohteelle tehokkuusluku-koodi on osoitettu.
+Tehokkuusluku-koodin avulla voidaan ilmaista aluetehokkuus.
 
 {% include common/clause_start.html type="req" id="sp-yk/vaat-tehokkuusluku-arvot" %}
 ```arvo```-attribuutin arvona saa esiintyä joko yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvo" title="NumeerinenArvo" %} tai yksi {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#numeerinenarvovali" title="NumeerinenArvovali" %} jotka kertovat rakennustehokkuden, eli alueen rakennusten yhteenlasketun kerrosalan suhteessa alueen pinta-alaan, sen kaavakohteen aluella, johon kaavamääräys on liitetty. Numeerisen arvon tai arvovälin minimi- ja maksimiarvojen on toteutettava {% include common/moduleLink.html moduleId="kaavatiedot" path="looginenmalli/dokumentaatio/#real" title="Real" %}-rajapinta. Ilmaistaan tehokkuuslukuna ```e```, yksikkönä ```k-m2/m2```. Muun tyyppiset arvot eivät ole sallittuja.
